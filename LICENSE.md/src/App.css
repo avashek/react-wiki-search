@@ -1,0 +1,26 @@
+.App {
+  background-color : #fff;
+}
+.wikicard{
+  width : 90%;
+  border-radius : 5px;
+  margin : auto;
+  margin-top:5px;
+  margin-bottom : 5px;
+  border : 5px solid #fff;
+  border-left : 10px solid #fff;
+  padding-left : 5px;
+  background-color : #aaa;
+  color : #333;
+  font-size : 20px;
+  transition: border 0.2s;
+}
+.wikicard:hover{
+  border : 5px solid #bbb;
+  border-left : 10px solid #a66;
+  background-color : #bbb;
+}
+.wikicard h4{
+  margin : 0;
+  color : black;
+}
